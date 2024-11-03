@@ -1,0 +1,20 @@
+/* a. Links dentro da Lista de Cursos */
+ul li a:hover {
+    background-color: #f2f2f2; /* Cor de fundo cinza claro ao passar o mouse */
+}
+
+/* b. Estilo do Parágrafo */
+p {
+    margin-bottom: 20px; /* Margem inferior */
+    padding: 10px; /* Espaçamento interno */
+}
+
+/* c. Estilo do Campo de Busca */
+input[type="text"]:focus {
+    border: solid 2px #ccc; /* Borda sólida de cor cinza e espessura de 2px ao focar */
+}
+
+/* d. Estilo do Primeiro Item da Lista de Cursos */
+ul li:first-child a {
+    color: #008000; /* Cor de texto verde para o primeiro item */
+}
